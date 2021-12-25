@@ -1,0 +1,34 @@
+body {
+    background: url("https://previews.123rf.com/images/whatawin/whatawin1902/whatawin190200007/119588046-green-binary-code-bg-coding-or-hacking-concept-.jpg");
+    background-size: cover;
+}
+.cont {
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+button {
+    height: 200px;
+    border-radius: 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+button:hover {
+    border: none;
+    transform: scale(1.3,1.3);
+    font-weight: bold;
+}
+.js:hover {
+    background: blue;
+    color: yellow;
+}
+.py:hover {
+    background: red;
+    color: green;
+}
+.reset:hover {
+    background: black;
+    color: white;
+}
+
